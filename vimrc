@@ -135,10 +135,15 @@ Plug 'tpope/vim-fugitive'
 " Ctrl-p
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Vimwiki
+Plug 'vimwiki/vimwiki'
+
 " Initialize plugin system
 call plug#end()
 
 let g:slime_target = "tmux"
+
+let g:vimwiki_list = [{'path': '~/Dropbox/notes/', 'syntax': 'markdown', 'ext': '.md'}]
 
 
 
